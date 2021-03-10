@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt-get install python3-venv -qq
 
 DBNAME=""
 EXPIRATION="30"
@@ -26,7 +27,6 @@ esac
 shift
 done
 
-sudo apt install python3-venv
 
 if [[ -z "$DBNAME" ]]; then
   echo "Missing DBNAME variable"
