@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install python3-venv -qq
+sudo apt-get install python3-venv --user
 
 DBNAME=""
 EXPIRATION="30"
