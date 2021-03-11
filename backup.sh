@@ -1,10 +1,5 @@
 #!/bin/bash
 
-echo "-----> installing python3.6-venv"
-
-sudo apt-get install python3.6-venv
-
-
 DBNAME=""
 EXPIRATION="30"
 Green='\033[0;32m'
