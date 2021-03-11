@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Start backing up"
+
 DBNAME=""
 EXPIRATION="30"
 Green='\033[0;32m'
