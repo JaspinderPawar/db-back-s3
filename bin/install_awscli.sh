@@ -1,4 +1,8 @@
 #!/bin/bash
+echo "-----> installing python3.6-venv"
+
+sudo apt-get install python3.6-venv
+
 INSTALL_DIR="/app/vendor/awscli"
 chmod +x /app/vendor/awscli-bundle/install
 /app/vendor/awscli-bundle/install -i $INSTALL_DIR
